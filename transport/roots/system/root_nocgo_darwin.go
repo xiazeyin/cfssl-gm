@@ -7,7 +7,7 @@
 
 package system
 
-import "gitee.com/zhaochuninhefei/gmgo/x509"
+import "github.com/xiazeyin/gmgo/x509"
 
 func initSystemRoots() []*x509.Certificate {
 	roots, _ := execSecurityRoots()

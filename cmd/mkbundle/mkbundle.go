@@ -13,10 +13,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	"gitee.com/zhaochuninhefei/cfssl-gm/revoke"
+	"github.com/xiazeyin/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/revoke"
 )
 
 // worker does all the parsing and validation of the certificate(s)

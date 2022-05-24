@@ -3,7 +3,7 @@ package scan
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli"
 )
 
 var hosts = []string{"www.cloudflare.com", "google.com"}

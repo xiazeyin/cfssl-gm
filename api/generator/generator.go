@@ -9,19 +9,19 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/sm3"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api"
-	"gitee.com/zhaochuninhefei/cfssl-gm/bundler"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/cfssl-gm/errors"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer/universal"
+	"github.com/xiazeyin/cfssl-gm/api"
+	"github.com/xiazeyin/cfssl-gm/bundler"
+	"github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/cfssl-gm/signer/universal"
 )
 
 const (

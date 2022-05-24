@@ -3,7 +3,7 @@ package errors
 import (
 	"errors"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // HTTPError is an augmented error with a HTTP status code.

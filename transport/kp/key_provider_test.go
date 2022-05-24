@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/cfssl-gm/transport/core"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/cfssl-gm/transport/core"
 )
 
 const (

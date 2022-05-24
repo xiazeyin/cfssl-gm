@@ -14,16 +14,16 @@ import (
 	"regexp"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/dbconf"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers/derhelpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	"gitee.com/zhaochuninhefei/cfssl-gm/whitelist"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
 	"github.com/cloudflare/redoctober/client"
 	"github.com/cloudflare/redoctober/core"
 	"github.com/jmoiron/sqlx"
+	"github.com/xiazeyin/cfssl-gm/certdb/dbconf"
+	"github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/helpers/derhelpers"
+	"github.com/xiazeyin/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/whitelist"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // RawMap is shorthand for the type used as a map from string to raw Root struct.

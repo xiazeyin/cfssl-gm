@@ -8,7 +8,7 @@ import (
 	"encoding/pem"
 	"errors"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 func appendPEM(roots []*x509.Certificate, pemCerts []byte) ([]*x509.Certificate, bool) {

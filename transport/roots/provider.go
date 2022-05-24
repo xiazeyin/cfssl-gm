@@ -4,11 +4,11 @@ import (
 	"errors"
 	"io/ioutil"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/transport/core"
-	"gitee.com/zhaochuninhefei/cfssl-gm/transport/roots/system"
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/transport/core"
+	"github.com/xiazeyin/cfssl-gm/transport/roots/system"
+	"github.com/xiazeyin/gmgo/sm3"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // Providers is a mapping of supported providers and the functions

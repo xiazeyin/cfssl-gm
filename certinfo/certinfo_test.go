@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/testdb"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/certdb/testdb"
 )
 
 const (

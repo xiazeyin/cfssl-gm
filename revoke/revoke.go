@@ -16,11 +16,11 @@ import (
 	"sync"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/gmgo/xcrypto/ocsp"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/log"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/gmgo/xcrypto/ocsp"
 )
 
 // HardFail determines whether the failure to check the revocation

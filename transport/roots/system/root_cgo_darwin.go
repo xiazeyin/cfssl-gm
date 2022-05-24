@@ -63,7 +63,7 @@ int FetchPEMRootsCFSSLTransport(CFDataRef *pemRoots) {
 */
 import "C"
 import (
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 	"unsafe"
 )
 

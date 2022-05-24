@@ -4,7 +4,7 @@ package ubiquity
 // Ubiquity is addressed as selecting the chains that are most likely being accepted for different client systems.
 // To select, we decide to do multi-round filtering from different ranking perpectives.
 import (
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // RankingFunc returns the relative rank between chain1 and chain2.

@@ -33,7 +33,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/config"
 )
 
 // Command holds the implementation details of a cfssl command.

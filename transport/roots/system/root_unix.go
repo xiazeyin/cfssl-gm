@@ -10,7 +10,7 @@ package system
 import (
 	"io/ioutil"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // Possible directories with certificate files; stop after successfully

@@ -4,8 +4,8 @@ package gencrl
 import (
 	"strings"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/crl"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/crl"
 )
 
 var gencrlUsageText = `cfssl gencrl -- generate a new Certificate Revocation List

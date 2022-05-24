@@ -19,7 +19,7 @@ import (
 	"encoding/pem"
 	"flag"
 	"fmt"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 	"log"
 	"math/big"
 	"net"

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/bundle"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli/bundle"
+	"github.com/xiazeyin/cfssl-gm/config"
 )
 
 // main defines the bundle usage and registers all defined commands and flags.

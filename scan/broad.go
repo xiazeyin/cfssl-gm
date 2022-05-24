@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/bundler"
+	"github.com/xiazeyin/cfssl-gm/bundler"
 )
 
 // Broad contains scanners for large swaths of TLS hosts on the internet.

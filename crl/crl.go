@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/log"
 )
 
 // NewCRLFromFile takes in a list of serial numbers, one per line, as well as the issuing certificate

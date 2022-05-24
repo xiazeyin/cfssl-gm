@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"errors"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api/generator"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/genkey"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/sign"
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/cfssl-gm/initca"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
+	"github.com/xiazeyin/cfssl-gm/api/generator"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli/genkey"
+	"github.com/xiazeyin/cfssl-gm/cli/sign"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/cfssl-gm/initca"
+	"github.com/xiazeyin/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/signer"
 )
 
 var gencertUsageText = `cfssl gencert -- generate a new key and signed certificate

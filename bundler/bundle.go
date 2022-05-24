@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/helpers"
 )
 
 // A Bundle contains a certificate and its trust chain. It is intended

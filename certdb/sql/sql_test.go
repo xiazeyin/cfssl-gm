@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/testdb"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/certdb/testdb"
 
 	"github.com/jmoiron/sqlx"
 )

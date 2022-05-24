@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/errors"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/ubiquity"
+	"github.com/xiazeyin/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/ubiquity"
 )
 
 const (

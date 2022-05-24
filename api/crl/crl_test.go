@@ -7,17 +7,17 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/testdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/api"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/certdb/testdb"
+	"github.com/xiazeyin/cfssl-gm/helpers"
 )
 
 const (

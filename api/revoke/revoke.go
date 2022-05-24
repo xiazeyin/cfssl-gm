@@ -6,15 +6,15 @@ import (
 	"io/ioutil"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/errors"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/ocsp"
+	"github.com/xiazeyin/cfssl-gm/api"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/ocsp"
 
-	stdocsp "gitee.com/zhaochuninhefei/gmgo/xcrypto/ocsp"
+	stdocsp "github.com/xiazeyin/gmgo/xcrypto/ocsp"
 )
 
 // A Handler accepts requests with a serial number parameter

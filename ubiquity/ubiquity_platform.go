@@ -11,10 +11,10 @@ import (
 	"path"
 	"path/filepath"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/log"
+	"github.com/xiazeyin/gmgo/sm3"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // SM3RawPublicKey returns a SHA1 hash of the raw certificate public key

@@ -8,22 +8,22 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	apiinfo "gitee.com/zhaochuninhefei/cfssl-gm/api/info"
-	apisign "gitee.com/zhaochuninhefei/cfssl-gm/api/signhandler"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers/testsuite"
-	"gitee.com/zhaochuninhefei/cfssl-gm/info"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer/local"
+	apiinfo "github.com/xiazeyin/cfssl-gm/api/info"
+	apisign "github.com/xiazeyin/cfssl-gm/api/signhandler"
+	"github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/helpers/testsuite"
+	"github.com/xiazeyin/cfssl-gm/info"
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/cfssl-gm/signer/local"
 )
 
 const (

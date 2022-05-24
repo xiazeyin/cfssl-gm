@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/bundler"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/ubiquity"
+	"github.com/xiazeyin/cfssl-gm/bundler"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/ubiquity"
 )
 
 // Usage text of 'cfssl bundle'

@@ -5,17 +5,17 @@ import (
 	"os"
 	"time"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/cfssl-gm/errors"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	"gitee.com/zhaochuninhefei/cfssl-gm/revoke"
-	"gitee.com/zhaochuninhefei/cfssl-gm/transport/ca"
-	"gitee.com/zhaochuninhefei/cfssl-gm/transport/core"
-	"gitee.com/zhaochuninhefei/cfssl-gm/transport/kp"
-	"gitee.com/zhaochuninhefei/cfssl-gm/transport/roots"
 	"github.com/cloudflare/backoff"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/revoke"
+	"github.com/xiazeyin/cfssl-gm/transport/ca"
+	"github.com/xiazeyin/cfssl-gm/transport/core"
+	"github.com/xiazeyin/cfssl-gm/transport/kp"
+	"github.com/xiazeyin/cfssl-gm/transport/roots"
 )
 
 func envOrDefault(key, def string) string {

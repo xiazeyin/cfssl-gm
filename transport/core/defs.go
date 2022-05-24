@@ -13,7 +13,7 @@ package core
 import (
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
+	"github.com/xiazeyin/cfssl-gm/csr"
 )
 
 // A Root stores information about a trusted root.

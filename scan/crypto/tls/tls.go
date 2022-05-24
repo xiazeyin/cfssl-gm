@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // Server returns a new TLS server side connection

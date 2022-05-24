@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"errors"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api/client"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/info"
+	"github.com/xiazeyin/cfssl-gm/api/client"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/info"
 )
 
 // This package contains CFSSL integration.

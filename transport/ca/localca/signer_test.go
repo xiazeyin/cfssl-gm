@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/initca"
-	"gitee.com/zhaochuninhefei/cfssl-gm/selfsign"
 	"github.com/kisom/goutils/assert"
+	"github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/initca"
+	"github.com/xiazeyin/cfssl-gm/selfsign"
 )
 
 func tempName() (string, error) {

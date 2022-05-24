@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	"gitee.com/zhaochuninhefei/cfssl-gm/ocsp"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/ocsp"
 )
 
 // Usage text of 'cfssl serve'

@@ -3,9 +3,9 @@ package health
 import (
 	"encoding/json"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api"
+	"github.com/xiazeyin/cfssl-gm/api"
 )
 
 // Response contains the response to the /health API

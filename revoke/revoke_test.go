@@ -1,7 +1,7 @@
 package revoke
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 	//"crypto/x509/pkix"
 	"encoding/pem"
 	"fmt"

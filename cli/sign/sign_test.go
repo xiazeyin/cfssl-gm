@@ -3,9 +3,9 @@ package sign
 import (
 	"testing"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/testdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/certdb/testdb"
+	"github.com/xiazeyin/cfssl-gm/cli"
 )
 
 func TestSignFromConfig(t *testing.T) {

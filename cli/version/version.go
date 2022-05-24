@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli"
 )
 
 var (

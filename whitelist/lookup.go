@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 // NetConnLookup extracts an IP from the remote address in the

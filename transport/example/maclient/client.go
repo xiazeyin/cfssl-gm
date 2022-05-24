@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/transport"
-	"gitee.com/zhaochuninhefei/cfssl-gm/transport/core"
-	"gitee.com/zhaochuninhefei/cfssl-gm/transport/example/exlib"
+	"github.com/xiazeyin/cfssl-gm/transport"
+	"github.com/xiazeyin/cfssl-gm/transport/core"
+	"github.com/xiazeyin/cfssl-gm/transport/example/exlib"
 )
 
 // maclient is a mutual-authentication client, meant to demonstrate

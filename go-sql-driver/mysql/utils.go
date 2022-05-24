@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 // Registry for custom tls.Configs

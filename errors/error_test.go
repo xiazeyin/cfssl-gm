@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 func TestNew(t *testing.T) {

@@ -12,14 +12,14 @@ import (
 	"strings"
 	"time"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	tls "github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/auth"
-	cferr "gitee.com/zhaochuninhefei/cfssl-gm/errors"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	ocspConfig "gitee.com/zhaochuninhefei/cfssl-gm/ocsp/config"
+	"github.com/xiazeyin/cfssl-gm/auth"
+	cferr "github.com/xiazeyin/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/log"
+	ocspConfig "github.com/xiazeyin/cfssl-gm/ocsp/config"
 
 	"github.com/zmap/zlint/lints"
 )

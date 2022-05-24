@@ -2,17 +2,17 @@
 package universal
 
 import (
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	cferr "gitee.com/zhaochuninhefei/cfssl-gm/errors"
-	"gitee.com/zhaochuninhefei/cfssl-gm/info"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer/local"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer/remote"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/config"
+	cferr "github.com/xiazeyin/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/info"
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/cfssl-gm/signer/local"
+	"github.com/xiazeyin/cfssl-gm/signer/remote"
 )
 
 // Signer represents a universal signer which is both local and remote

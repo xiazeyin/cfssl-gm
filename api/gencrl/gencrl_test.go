@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	"github.com/xiazeyin/cfssl-gm/api"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 )
 
 const (

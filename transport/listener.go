@@ -4,9 +4,9 @@ import (
 	"net"
 	"time"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/log"
 )
 
 // A Listener is a TCP network listener for TLS-secured connections.

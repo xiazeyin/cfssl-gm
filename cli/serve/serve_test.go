@@ -4,11 +4,11 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli"
 )
 
 func TestServe(t *testing.T) {

@@ -3,7 +3,7 @@ package printdefaults
 import (
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli"
 )
 
 var printDefaultsUsage = `cfssl print-defaults -- print default configurations that can be used as a template

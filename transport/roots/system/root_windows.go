@@ -6,7 +6,7 @@ package system
 
 import (
 	"errors"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 	"syscall"
 	"unsafe"
 )

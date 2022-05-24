@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
 	_ "github.com/mattn/go-sqlite3" // import just to initialize SQLite for testing
+	"github.com/xiazeyin/cfssl-gm/log"
 )
 
 // UnlinkIfExists removes a file if it exists.

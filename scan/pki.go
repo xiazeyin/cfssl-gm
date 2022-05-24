@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/revoke"
-	"gitee.com/zhaochuninhefei/cfssl-gm/scan/crypto/tls"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/revoke"
+	"github.com/xiazeyin/cfssl-gm/scan/crypto/tls"
 )
 
 // PKI contains scanners for the Public Key Infrastructure.

@@ -19,18 +19,18 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/crypto/pkcs7"
-	cferr "gitee.com/zhaochuninhefei/cfssl-gm/errors"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers/derhelpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/gmgo/xcrypto/ocsp"
-	"gitee.com/zhaochuninhefei/gmgo/xcrypto/pkcs12"
 	ct "github.com/google/certificate-transparency-go"
 	cttls "github.com/google/certificate-transparency-go/tls"
 	ctx509 "github.com/google/certificate-transparency-go/x509"
+	"github.com/xiazeyin/cfssl-gm/crypto/pkcs7"
+	cferr "github.com/xiazeyin/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/helpers/derhelpers"
+	"github.com/xiazeyin/cfssl-gm/log"
+	tls "github.com/xiazeyin/gmgo/gmtls"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/gmgo/xcrypto/ocsp"
+	"github.com/xiazeyin/gmgo/xcrypto/pkcs12"
 )
 
 // OneYear is a time.Duration representing a year's worth of seconds.

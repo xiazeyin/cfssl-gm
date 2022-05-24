@@ -51,9 +51,9 @@ import (
 	"encoding/asn1"
 	"errors"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	cferr "gitee.com/zhaochuninhefei/cfssl-gm/errors"
+	cferr "github.com/xiazeyin/cfssl-gm/errors"
 )
 
 // Types used for asn1 Unmarshaling.

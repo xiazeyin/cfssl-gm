@@ -1,6 +1,6 @@
 package scan
 
-import "gitee.com/zhaochuninhefei/cfssl-gm/scan/crypto/tls"
+import "github.com/xiazeyin/cfssl-gm/scan/crypto/tls"
 
 // TLSSession contains tests of host TLS Session Resumption via
 // Session Tickets and Session IDs

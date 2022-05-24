@@ -18,15 +18,15 @@ import (
 	"regexp"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/dbconf"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/sm3"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/gmgo/xcrypto/ocsp"
 	"github.com/jmhodges/clock"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/certdb/dbconf"
+	"github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/log"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/sm3"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/gmgo/xcrypto/ocsp"
 )
 
 var (

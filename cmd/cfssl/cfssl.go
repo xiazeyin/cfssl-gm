@@ -25,30 +25,30 @@ import (
 	"flag"
 	"os"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/bundle"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/certinfo"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/crl"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/gencert"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/gencrl"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/gencsr"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/genkey"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/info"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/ocspdump"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/ocsprefresh"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/ocspserve"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/ocspsign"
-	printdefaults "gitee.com/zhaochuninhefei/cfssl-gm/cli/printdefault"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/revoke"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/scan"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/selfsign"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/serve"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/sign"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/version"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli/bundle"
+	"github.com/xiazeyin/cfssl-gm/cli/certinfo"
+	"github.com/xiazeyin/cfssl-gm/cli/crl"
+	"github.com/xiazeyin/cfssl-gm/cli/gencert"
+	"github.com/xiazeyin/cfssl-gm/cli/gencrl"
+	"github.com/xiazeyin/cfssl-gm/cli/gencsr"
+	"github.com/xiazeyin/cfssl-gm/cli/genkey"
+	"github.com/xiazeyin/cfssl-gm/cli/info"
+	"github.com/xiazeyin/cfssl-gm/cli/ocspdump"
+	"github.com/xiazeyin/cfssl-gm/cli/ocsprefresh"
+	"github.com/xiazeyin/cfssl-gm/cli/ocspserve"
+	"github.com/xiazeyin/cfssl-gm/cli/ocspsign"
+	printdefaults "github.com/xiazeyin/cfssl-gm/cli/printdefault"
+	"github.com/xiazeyin/cfssl-gm/cli/revoke"
+	"github.com/xiazeyin/cfssl-gm/cli/scan"
+	"github.com/xiazeyin/cfssl-gm/cli/selfsign"
+	"github.com/xiazeyin/cfssl-gm/cli/serve"
+	"github.com/xiazeyin/cfssl-gm/cli/sign"
+	"github.com/xiazeyin/cfssl-gm/cli/version"
 
-	_ "gitee.com/zhaochuninhefei/cfssl-gm/go-sql-driver/mysql" // import to support MySQL
-	_ "github.com/lib/pq"                                      // import to support Postgres
-	_ "github.com/mattn/go-sqlite3"                            // import to support SQLite3
+	_ "github.com/lib/pq"                                // import to support Postgres
+	_ "github.com/mattn/go-sqlite3"                      // import to support SQLite3
+	_ "github.com/xiazeyin/cfssl-gm/go-sql-driver/mysql" // import to support MySQL
 )
 
 // main defines the cfssl usage and registers all defined commands and flags.

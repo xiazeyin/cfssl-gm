@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/testdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
-	goocsp "gitee.com/zhaochuninhefei/gmgo/xcrypto/ocsp"
 	"github.com/jmhodges/clock"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/certdb/testdb"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
+	goocsp "github.com/xiazeyin/gmgo/xcrypto/ocsp"
 )
 
 const (

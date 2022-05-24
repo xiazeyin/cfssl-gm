@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 const teststring = "asdf123"

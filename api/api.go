@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/errors"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/log"
 )
 
 // Handler is an interface providing a generic mechanism for handling HTTP requests.

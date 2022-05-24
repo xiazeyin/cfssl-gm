@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/auth"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	"github.com/xiazeyin/cfssl-gm/auth"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 )
 
 var (

@@ -13,7 +13,7 @@ import (
 	"crypto/sha1"
 	"hash"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 // a keyAgreement implements the client and server side of a TLS key agreement

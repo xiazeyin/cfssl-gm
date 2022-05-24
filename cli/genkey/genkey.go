@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
-	"gitee.com/zhaochuninhefei/cfssl-gm/initca"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/csr"
+	"github.com/xiazeyin/cfssl-gm/initca"
 )
 
 var genkeyUsageText = `cfssl genkey -- generate a new key and CSR

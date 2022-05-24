@@ -7,7 +7,7 @@ import (
 	"io"
 	"net"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/scan/crypto/tls"
+	"github.com/xiazeyin/cfssl-gm/scan/crypto/tls"
 )
 
 // Connectivity contains scanners testing basic connectivity to the host

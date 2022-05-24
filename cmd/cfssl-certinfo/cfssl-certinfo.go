@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/certinfo"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli/certinfo"
+	"github.com/xiazeyin/cfssl-gm/config"
 
-	_ "gitee.com/zhaochuninhefei/cfssl-gm/go-sql-driver/mysql" // import to support MySQL
-	_ "github.com/lib/pq"                                      // import to support Postgres
-	_ "github.com/mattn/go-sqlite3"                            // import to support SQLite3
+	_ "github.com/lib/pq"                                // import to support Postgres
+	_ "github.com/mattn/go-sqlite3"                      // import to support SQLite3
+	_ "github.com/xiazeyin/cfssl-gm/go-sql-driver/mysql" // import to support MySQL
 )
 
 // main defines the newkey usage and registers all defined commands and flags.

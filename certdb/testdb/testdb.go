@@ -4,10 +4,10 @@ import (
 	"os"
 	"strings"
 
-	_ "gitee.com/zhaochuninhefei/cfssl-gm/go-sql-driver/mysql" // register mysql driver
 	"github.com/jmoiron/sqlx"
-	_ "github.com/lib/pq"           // register postgresql driver
-	_ "github.com/mattn/go-sqlite3" // register sqlite3 driver
+	_ "github.com/lib/pq"                                // register postgresql driver
+	_ "github.com/mattn/go-sqlite3"                      // register sqlite3 driver
+	_ "github.com/xiazeyin/cfssl-gm/go-sql-driver/mysql" // register mysql driver
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/ubiquity"
+	"github.com/xiazeyin/cfssl-gm/ubiquity"
 )
 
 // remoteTest defines a test case for BundleFromRemote. Hostname and ip are the test inputs.

@@ -73,9 +73,9 @@ import (
 	"fmt"
 	"log"
 	"net"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/whitelist"
+	"github.com/xiazeyin/cfssl-gm/whitelist"
 )
 
 var wl = whitelist.NewBasic()

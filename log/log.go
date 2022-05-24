@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	log "gitee.com/zhaochuninhefei/zcgolog/zclog"
+	log "github.com/xiazeyin/zcgolog/zclog"
 )
 
 // The following constants represent logging levels in increasing levels of seriousness.

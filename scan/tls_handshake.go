@@ -7,8 +7,8 @@ import (
 	"net"
 	"strings"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/scan/crypto/tls"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/scan/crypto/tls"
 )
 
 // Sentinel for failures in sayHello. Should always be caught.

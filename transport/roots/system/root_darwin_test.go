@@ -5,7 +5,7 @@
 package system
 
 import (
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 	"runtime"
 	"testing"
 )

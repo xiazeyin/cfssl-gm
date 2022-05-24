@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/gmgo/xcrypto/ocsp"
+	"github.com/xiazeyin/gmgo/xcrypto/ocsp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/helpers"
 )
 
 const (

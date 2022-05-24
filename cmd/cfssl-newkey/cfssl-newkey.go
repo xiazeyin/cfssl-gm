@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/genkey"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli/genkey"
+	"github.com/xiazeyin/cfssl-gm/config"
 )
 
 // main defines the newkey usage and registers all defined commands and flags.

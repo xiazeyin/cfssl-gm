@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/testdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/gmgo/xcrypto/ocsp"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/certdb/testdb"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/gmgo/xcrypto/ocsp"
 )
 
 var dbAccessor certdb.Accessor

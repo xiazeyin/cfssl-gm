@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	tls "gitee.com/zhaochuninhefei/gmgo/gmtls"
+	tls "github.com/xiazeyin/gmgo/gmtls"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/auth"
-	"gitee.com/zhaochuninhefei/cfssl-gm/info"
+	"github.com/xiazeyin/cfssl-gm/auth"
+	"github.com/xiazeyin/cfssl-gm/info"
 )
 
 // Strategy is the means by which the server to use as a remote should

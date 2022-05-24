@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/csr"
+	"github.com/xiazeyin/cfssl-gm/csr"
 )
 
 func csrData(t *testing.T) *bytes.Reader {

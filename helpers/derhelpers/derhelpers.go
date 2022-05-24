@@ -8,10 +8,10 @@ import (
 	"crypto/ed25519"
 	"crypto/rsa"
 
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
 
-	cferr "gitee.com/zhaochuninhefei/cfssl-gm/errors"
+	cferr "github.com/xiazeyin/cfssl-gm/errors"
 )
 
 // ParsePrivateKeyDER parses a PKCS #1, PKCS #8, ECDSA, or Ed25519 DER-encoded

@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/dbconf"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/certdb/dbconf"
+	"github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/cli"
 )
 
 // Usage text of 'cfssl ocspdump'

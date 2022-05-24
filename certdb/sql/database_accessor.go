@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	cferr "gitee.com/zhaochuninhefei/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	cferr "github.com/xiazeyin/cfssl-gm/errors"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/kisielk/sqlstruct"

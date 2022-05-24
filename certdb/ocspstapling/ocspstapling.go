@@ -9,12 +9,12 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	cferr "gitee.com/zhaochuninhefei/cfssl-gm/errors"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	"gitee.com/zhaochuninhefei/gmgo/xcrypto/ocsp"
 	ct "github.com/google/certificate-transparency-go"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	cferr "github.com/xiazeyin/cfssl-gm/errors"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/gmgo/x509"
+	"github.com/xiazeyin/gmgo/xcrypto/ocsp"
 )
 
 // sctExtOid is the OID of the OCSP Stapling SCT extension (see section 3.3. of RFC 6962).

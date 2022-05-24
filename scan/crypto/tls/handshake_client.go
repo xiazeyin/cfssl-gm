@@ -16,7 +16,7 @@ import (
 	"net"
 	"strconv"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 )
 
 type clientHandshakeState struct {

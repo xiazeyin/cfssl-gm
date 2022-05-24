@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli"
 )
 
 func TestGencertMain(t *testing.T) {

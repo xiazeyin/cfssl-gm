@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httputil"
+	"github.com/xiazeyin/gmgo/gmhttp/httputil"
 
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api"
-	"gitee.com/zhaochuninhefei/cfssl-gm/auth"
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/cfssl-gm/whitelist"
 	metrics "github.com/cloudflare/go-metrics"
+	"github.com/xiazeyin/cfssl-gm/api"
+	"github.com/xiazeyin/cfssl-gm/auth"
+	"github.com/xiazeyin/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/cfssl-gm/whitelist"
 )
 
 // A SignatureResponse contains only a certificate, as there is no other

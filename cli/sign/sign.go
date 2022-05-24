@@ -6,13 +6,13 @@ import (
 	"errors"
 	"io/ioutil"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/dbconf"
-	certsql "gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer/universal"
+	"github.com/xiazeyin/cfssl-gm/certdb/dbconf"
+	certsql "github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/cfssl-gm/signer/universal"
 
 	"github.com/jmoiron/sqlx"
 )

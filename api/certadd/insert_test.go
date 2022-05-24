@@ -14,15 +14,15 @@ import (
 
 	"encoding/base64"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/testdb"
-	"gitee.com/zhaochuninhefei/cfssl-gm/ocsp"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/gmhttp/httptest"
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
-	"gitee.com/zhaochuninhefei/gmgo/x509"
-	stdocsp "gitee.com/zhaochuninhefei/gmgo/xcrypto/ocsp"
+	"github.com/xiazeyin/cfssl-gm/certdb"
+	"github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/certdb/testdb"
+	"github.com/xiazeyin/cfssl-gm/ocsp"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/gmhttp/httptest"
+	"github.com/xiazeyin/gmgo/sm2"
+	"github.com/xiazeyin/gmgo/x509"
+	stdocsp "github.com/xiazeyin/gmgo/xcrypto/ocsp"
 )
 
 func prepDB() (certdb.Accessor, error) {

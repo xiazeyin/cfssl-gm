@@ -7,19 +7,19 @@ import (
 	"flag"
 	"net"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/api/info"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/log"
-	"gitee.com/zhaochuninhefei/cfssl-gm/multiroot/config"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer"
-	"gitee.com/zhaochuninhefei/cfssl-gm/signer/local"
-	"gitee.com/zhaochuninhefei/cfssl-gm/whitelist"
-	http "gitee.com/zhaochuninhefei/gmgo/gmhttp"
-	"gitee.com/zhaochuninhefei/gmgo/sm2"
+	"github.com/xiazeyin/cfssl-gm/api/info"
+	"github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/log"
+	"github.com/xiazeyin/cfssl-gm/multiroot/config"
+	"github.com/xiazeyin/cfssl-gm/signer"
+	"github.com/xiazeyin/cfssl-gm/signer/local"
+	"github.com/xiazeyin/cfssl-gm/whitelist"
+	http "github.com/xiazeyin/gmgo/gmhttp"
+	"github.com/xiazeyin/gmgo/sm2"
 
-	_ "gitee.com/zhaochuninhefei/cfssl-gm/go-sql-driver/mysql" // import to support MySQL
-	_ "github.com/lib/pq"                                      // import to support Postgres
-	_ "github.com/mattn/go-sqlite3"                            // import to support SQLite
+	_ "github.com/lib/pq"                                // import to support Postgres
+	_ "github.com/mattn/go-sqlite3"                      // import to support SQLite
+	_ "github.com/xiazeyin/cfssl-gm/go-sql-driver/mysql" // import to support MySQL
 )
 
 func parseSigner(root *config.Root) (signer.Signer, error) {

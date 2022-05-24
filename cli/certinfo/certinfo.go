@@ -6,13 +6,13 @@ import (
 	"errors"
 	"fmt"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/dbconf"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certdb/sql"
-	"gitee.com/zhaochuninhefei/cfssl-gm/certinfo"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
 	"github.com/jmoiron/sqlx"
+	"github.com/xiazeyin/cfssl-gm/certdb/dbconf"
+	"github.com/xiazeyin/cfssl-gm/certdb/sql"
+	"github.com/xiazeyin/cfssl-gm/certinfo"
+	"github.com/xiazeyin/cfssl-gm/cli"
 )
 
 // Usage text of 'cfssl certinfo'

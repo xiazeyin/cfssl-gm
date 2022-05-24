@@ -1,8 +1,8 @@
 package universal
 
 import (
-	"gitee.com/zhaochuninhefei/cfssl-gm/ocsp"
-	ocspConfig "gitee.com/zhaochuninhefei/cfssl-gm/ocsp/config"
+	"github.com/xiazeyin/cfssl-gm/ocsp"
+	ocspConfig "github.com/xiazeyin/cfssl-gm/ocsp/config"
 )
 
 // NewSignerFromConfig generates a new OCSP signer from a config object.

@@ -7,9 +7,9 @@ import (
 	"crypto/rsa"
 	"math"
 
-	"gitee.com/zhaochuninhefei/gmgo/x509"
+	"github.com/xiazeyin/gmgo/x509"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/helpers"
+	"github.com/xiazeyin/cfssl-gm/helpers"
 )
 
 // HashUbiquity represents a score for how ubiquitous a given hash

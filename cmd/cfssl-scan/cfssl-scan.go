@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli"
-	"gitee.com/zhaochuninhefei/cfssl-gm/cli/scan"
-	"gitee.com/zhaochuninhefei/cfssl-gm/config"
+	"github.com/xiazeyin/cfssl-gm/cli"
+	"github.com/xiazeyin/cfssl-gm/cli/scan"
+	"github.com/xiazeyin/cfssl-gm/config"
 )
 
 // main defines the scan usage and registers all defined commands and flags.
